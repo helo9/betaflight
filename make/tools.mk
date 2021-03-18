@@ -16,7 +16,7 @@
 # Set up ARM (STM32) SDK
 ARM_SDK_DIR ?= $(TOOLS_DIR)/gcc-arm-none-eabi-6-2017-q2-update
 # Checked below, Should match the output of $(shell arm-none-eabi-gcc -dumpversion)
-GCC_REQUIRED_VERSION ?= 6.3.1
+GCC_REQUIRED_VERSION ?= 10.2.0
 
 ## arm_sdk_install   : Install Arm SDK
 .PHONY: arm_sdk_install

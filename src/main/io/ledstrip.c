@@ -79,6 +79,10 @@ static bool ledStripEnabled = true;
 
 static void ledStripDisable(void);
 
+hsvColor_t *colors;
+const modeColorIndexes_t *modeColors;
+specialColorIndexes_t specialColors;
+
 //#define USE_LED_ANIMATION
 
 #define HZ_TO_US(hz) ((int32_t)((1000 * 1000) / (hz)))
